@@ -31,7 +31,12 @@ body {
     transition: transform 0.8s;
     transform-style: preserve-3d;
     margin: 0.5rem;
+    transition: 0.2s ease-in-out;
 }
+/*
+.memory-card:hover {
+    transform: scale(1.1);
+}*/
 
 .front, .back {
     position: absolute;
